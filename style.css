@@ -77,11 +77,6 @@ body {
     flex-direction: column;
 }
 
-#page-bottom>h3 {
-    color: #dadada88;
-    margin-bottom: 1vw;
-}
-
 #page1 {
     position: relative;
     height: 100vh;
