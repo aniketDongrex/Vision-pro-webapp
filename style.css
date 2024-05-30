@@ -81,7 +81,14 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: black;
+}
+#page1-opacity {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 20%;
 }
 
 #page1>video {
@@ -92,13 +99,14 @@ body {
 
 #page1>h1 {
     font-size: 2.5vw;
-    color: rgb(255, 255, 255);
+    color: #EAEAEA;
     font-weight: 700;
     position: absolute;
     bottom: 25%;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
+    z-index: 10;
 }
 
 #page2 {
@@ -106,6 +114,13 @@ body {
     height: 100vh;
     width: 100vw;
 
+}
+#page2-opacity {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 20%;
 }
 
 #page2>video {
@@ -116,13 +131,13 @@ body {
 
 #page2>h1 {
     font-size: 2.5vw;
-    color: rgb(255, 255, 255);
+    color: #EAEAEA;
     font-weight: 700;
     position: absolute;
     bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
-
+    z-index: 10;
     text-align: center;
 }
 
@@ -141,7 +156,7 @@ body {
 
 #page3>h1 {
     font-size: 2.5vw;
-    color: rgb(255, 255, 255);
+    color: #EAEAEA;
     font-weight: 700;
     position: absolute;
     bottom: 20%;
@@ -153,7 +168,7 @@ body {
 
 #page4 {
     position: relative;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: white;
 }
@@ -161,7 +176,7 @@ body {
 #page4>img {
     width: 55%;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -202,10 +217,15 @@ body {
     font-weight: 500;
 
 }
+#page4-upper-inner>h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
 
 #page4>button {
     position: absolute;
-    bottom: 5%;
+    bottom: 12%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -221,6 +241,7 @@ body {
 #page4>button:hover {
     background-color: black;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -228,6 +249,13 @@ body {
     position: relative;
     height: 100vh;
     width: 100vw;
+}
+#page5-opacity {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 40%;
 }
 
 #page5>video {
@@ -239,19 +267,20 @@ body {
 
 #page5>h1 {
     font-size: 5vw;
-    color: rgb(255, 255, 255);
+    color: #EAEAEA;
     font-weight: 700;
     position: absolute;
     bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    z-index: 10;
 }
 
 #page6 {
     display: flex;
     position: relative;
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
 
 }
@@ -269,14 +298,14 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 10%;
+    top: 12%;
 }
 
 #right6 {
-    padding-top: 2vw;
+    padding-top: 4vw;
     display: flex;
     align-items: start;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     height: 100%;
     width: 50%;
@@ -284,9 +313,10 @@ body {
 }
 
 #right6>h3 {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     width: 80%;
-    color: rgb(96, 96, 96);
+    color: #87878c;
+    font-weight: 600;
 }
 
 #right6>button {
@@ -326,7 +356,7 @@ body {
     font-size: 1.2vw;
     width: 60%;
     font-weight: 700;
-    color: #545454c9;
+    color: #87878c;
 }
 #page8{
     position: relative;
