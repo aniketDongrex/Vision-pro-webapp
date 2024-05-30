@@ -40,7 +40,7 @@ gsap.to("#page>video",{
         trigger: `#page>video`,
         start:`1% top`,
         end: `bottom top`,
-        markers: true,
+        markers: false,
         scroller: `#main`
 
     },
@@ -75,7 +75,7 @@ var tl = gsap.timeline({
         start:`top top`,
         scrub: 1,
         scroller: `#main`,
-        markers: true,
+        // markers: true,
         pin:true
     }
 
@@ -91,7 +91,7 @@ var tl1 = gsap.timeline({
         start:`top top`,
         scrub: 1,
         scroller: `#main`,
-        markers: true,
+        // markers: true,
         pin:true
     }
 
@@ -107,7 +107,7 @@ var tl1 = gsap.timeline({
         start:`top top`,
         scrub: 1,
         scroller: `#main`,
-        markers: true,
+        // markers: true,
         pin:true
     }
 
@@ -124,7 +124,7 @@ var tl1 = gsap.timeline({
         start:`top top`,
         scrub: 1,
         scroller: `#main`,
-        markers: true,
+        // markers: true,
         pin:true
     }
 
