@@ -34,7 +34,7 @@ body {
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
-    color: white;
+    color: #EAEAEA;
 
 }
 
@@ -42,12 +42,12 @@ body {
     padding: 7px 20px;
     border-radius: 50px;
     border: none;
-    background-color: white;
+    background-color: #EAEAEA;
 }
 #page>nav>button:hover{
     background-color: #000000;
-    color: white;
-    border: 2px solid white;
+    color: #EAEAEA;
+    border: 2px solid #EAEAEA;
 }
 #page>nav>h3 {
     font-weight: 600;
